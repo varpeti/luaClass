@@ -1,11 +1,11 @@
-Mamal = require("Mamal") 
+Mammal = require("Mammal") 
 
-a1 = Mamal:new({"Mamvath",{10,10,10},4})
+a1 = Mammal:new({"Mamvath",{10,10,10},4})
 
 a1:eat(10)
 a1:walk({30,30,30})
 
-print("Number of Mamal: ",a1.static.number)
+print("Number of Mammal: ",a1.static.number)
 print(a1.name..": health: "..a1.health.." position: "..a1.position[1].." "..a1.position[2].." "..a1.position[3])
 
 Fish = require("Fish")
@@ -20,4 +20,4 @@ print("Number of Fish: ",a2.static.number)
 print(a2.name..": health: "..a2.health.." position: "..a2.position[1].." "..a2.position[2].." "..a2.position[3])
 print(a3.name..": health: "..a3.health.." position: "..a3.position[1].." "..a3.position[2].." "..a3.position[3])
 
-print("Number of Mamal: ",Mamal.static.number)
+print("Number of Mammal: ",Mammal.static.number)
